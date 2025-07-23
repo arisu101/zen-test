@@ -1,0 +1,5 @@
+.titlebar-min,
+.titlebar-max,
+.titlebar-restore {
+  display: none !important;
+}

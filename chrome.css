@@ -1,5 +1,17 @@
-.titlebar-min,
-.titlebar-max,
-.titlebar-restore {
+image.tab-close-button {
+  display: none !important;
+}
+.tab-background {
+  position: relative;
+}
+.tab-background[selected=""]::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: var(--zen-primary-color);
+}
+
+.titlebar-buttonbox-container {
   display: none !important;
 }
